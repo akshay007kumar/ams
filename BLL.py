@@ -32,7 +32,7 @@ class Student:
 
 
 
-class Teacher(Person): pass
+class Teacher: pass
 
 
 class Attendence: pass

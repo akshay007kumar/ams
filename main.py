@@ -1,7 +1,11 @@
 # Presentation Layer of Assignment Management System
+import BLL
+from myDB import *
+
+
 
 def main():
-    pass
+    print('*** AMS ***')
 
 
 
@@ -11,5 +15,7 @@ if __name__ == "__main__":
     except Exception as e:
         print('Error: ', e)
     finally:
-        print('This code will execute always')
+        if con.is_connected():
+            con.close()
+
 
