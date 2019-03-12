@@ -1,6 +1,7 @@
 # Bussiness Logic Layer of Attendance Management System
 
-class Student():
+
+class Student:
 
     def __init__(self):
         self.id = None
